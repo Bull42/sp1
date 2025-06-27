@@ -9,9 +9,8 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "npm install",
   "postCreateCommand": "",
-  "postAttachCommand": {
-    "server": "npm start"
-  },
+  "postAttachCommand": "npm start"
+  ,
 
   // Configure tool-specific properties.
   "customizations": {
